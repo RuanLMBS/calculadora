@@ -17,9 +17,9 @@ public class InputHelper {
         }
     }
 
-    public static String lerOperador (String operador) {
+    public static String lerOperador (String msg) {
         while(true) {
-            System.out.println(operador);
+            System.out.println(msg);
             String input = sc.nextLine().trim();
             if (input.matches("[+\\-*/=]")) {
                 return input;
